@@ -9,8 +9,8 @@
 <?php
 
 // データベース接続
-$dsn="データベース名";
-$user="ユーザー名";
+$dsn="データベース";
+$user="ユーザー";
 $password="パスワード";
 $pdo = new PDO($dsn,$user,$password,[PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,PDO::ATTR_EMULATE_PREPARES => false,]);
 
